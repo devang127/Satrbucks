@@ -1,0 +1,286 @@
+body{
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+
+}
+
+.navbar-container {
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(219,204,204,1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(219,204,204,1);
+    box-shadow: 0px 4px 5px 0px rgba(219,204,204,1);
+}
+
+.navbar-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+
+.navbar{
+    height: 99px;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+    flex:auto;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.navbar-left svg{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-left div:hover,
+.findastore:hover{
+    color: #00754a;
+}
+
+
+.navbar-left, 
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > * ,
+.navbar-right > *{
+    margin: 10px;
+}
+
+
+
+/* navbar right */
+
+.findastore{
+    display: flex;
+    align-items: center; 
+    font-weight: 700;
+}
+
+
+.signin ,
+.joinnow {
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.joinnow{
+    background-color: black;
+    color: white;
+}
+
+.signin:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.joinnow:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+
+/* container-product */
+
+
+.container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+
+.product-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+
+.product-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e3932;
+}
+
+
+
+.product-right h1 div{
+    font-size: 28px;
+    max-width: 100%;
+}
+
+.product img{
+    max-width: 100%;
+    object-fit:cover;
+    height: 508px;
+}
+
+.product{
+    display: flex;
+    
+}
+
+.product-title{
+    width: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-feature-settings: "calt";
+}
+
+.product-left,
+.product-right{
+    max-width: 50%;
+    width: 50%;
+}
+
+.product-title h1{
+    width: 1200px;
+    color: #1e3932ed;
+    margin: auto;
+}
+
+.product-button{
+    border: 1px solid white;
+    max-width:max-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+
+.product-button-white{
+    color: #1e3932;
+    font-weight: 700;
+
+}
+
+.product-button-white{
+    color: #1e3932;
+    border-color: #1e3932;
+}
+
+.product-button-white:hover{
+    background-color: hsla(180, 18%, 66%, 0.22)   
+}
+
+
+.product-title{
+    line-height: 30px;
+}
+
+
+.product-title h1{
+    line-height: 2;
+}
+
+
+
+/* footer */
+
+
+
+
+.description{
+    text-align: center;
+    padding: 32px 0px 32px 0px;
+
+    line-height: 1.7;
+    font-size: 16px;
+    font-feature-settings: "calt";
+    font-weight: 400;
+    text-size-adjust: 100%;
+    -webkit-box-shadow:0px 2px 2px rgba(219,204,204,1);
+    -moz-box-shadow:0px 2px 2px rgba(219,204,204,1);
+    box-shadow:0px 2px 2px rgba(219,204,204,1);
+}
+
+.description a{
+    color: black;
+}
+
+
+.description a:hover{
+    text-decoration: none;
+}
+
+
+.middle{
+    margin: 0rem 10rem 0rem 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.middle a{
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.middle a:hover{
+    opacity: 50%;
+}
+
+
+.middle li{
+    padding-inline-start: none;
+    list-style-type: none;
+}
+
+
+/* footer end */
+
+.social-media{
+    margin: 0rem 10rem 0rem 10rem;
+    border-top: 1px solid rgba(219,204,204,1);
+}
+
+.social-media{
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 40px;
+    color: black;
+}
+
+.social-media .logos{
+    font-size: 1.8rem;
+}
+
+.social-media a{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+    font-weight:400 ;
+    color: black;
+}
+
+.logos :hover{
+    transform: scale(1.5);
+    transition: 300ms ease-in-out;
+}
+
+.support a{
+    text-decoration: none;
+}
+
+.support :hover{
+    text-decoration: underline;
+}

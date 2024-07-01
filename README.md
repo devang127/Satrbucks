@@ -1,3 +1,3 @@
 # Satrbucks
 
-Link to visit Starbucks website- https://devang127.github.io/Satrbucks/
+Link to visit Starbucks clone website- https://devang127.github.io/Satrbucks/
